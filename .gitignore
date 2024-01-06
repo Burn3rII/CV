@@ -1,0 +1,6 @@
+
+*.pyc
+*/__pycache__/*
+*/staticfiles/*
+cv/db.sqlite3
+.idea/*
