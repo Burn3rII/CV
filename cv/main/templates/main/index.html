@@ -1,0 +1,111 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<p data_translate="welcome"></p>
+
+<div id="who_section">
+    <h2 data_translate="who_am_i_section.title"></h2>
+
+    <p data_translate="who_am_i_section.content"></p>
+</div>
+
+<div class="skills_section">
+    <h2 data_translate="skills_section.title"></h2>
+
+    <div id="skills">
+        <div id="prog">
+            <h3 data_translate="skills_section.programming_languages.title"></h3>
+            <p data_translate="skills_section.programming_languages.C"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:35%"></div>
+            </div>
+            <p data_translate="skills_section.programming_languages.Python"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:40%"></div>
+            </div>
+        </div>
+
+        <div id="web">
+            <h3 data_translate="skills_section.web.title"></h3>
+            <p data_translate="skills_section.web.HTML"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:60%"></div>
+            </div>
+            <p data_translate="skills_section.web.CSS"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:60%"></div>
+            </div>
+            <p data_translate="skills_section.web.Django"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:50%"></div>
+            </div>
+            <p data_translate="skills_section.web.JavaScript"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:30%"></div>
+            </div>
+        </div>
+
+        <div id="languages">
+            <h3 data_translate="skills_section.languages.title"></h3>
+            <p data_translate="skills_section.languages.english"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:70%"></div>
+            </div>
+            <p data_translate="skills_section.languages.french"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:95%"></div>
+            </div>
+            <p data_translate="skills_section.languages.german"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:30%"></div>
+            </div>
+        </div>
+
+        <div id="microsoft_office">
+            <h3 data_translate="skills_section.microsoft_office.title"></h3>
+            <p data_translate="skills_section.microsoft_office.excel"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:15%"></div>
+            </div>
+            <p data_translate="skills_section.microsoft_office.word"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:90%"></div>
+            </div>
+            <p data_translate="skills_section.microsoft_office.powerpoint"></p>
+            <div class="level_bar_outline">
+                <div class="level_bar_background" style="width:60%"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="interests_section">
+    <h2 data_translate="interests_section.title"></h2>
+
+    <div id="interests">
+        <div class="image_interests">
+            <img src="{% static 'main/images/mao.jpg' %}"
+                 alt="Computer-assisted music photo"/>
+            <div class="temporary_content">
+                <p data_translate="interests_section.computer_music"></p>
+            </div>
+        </div>
+
+        <div class="image_interests">
+            <img src="{% static 'main/images/programmation.png' %}" alt="Programmation photo"/>
+            <div class="temporary_content">
+                <p data_translate="interests_section.programmation"></p>
+            </div>
+        </div>
+
+        <div class="image_interests">
+            <img src="{% static 'main/images/synthetiseur.jpg' %}" alt="Yamaha modx synthesizer photo"/>
+            <div class="temporary_content">
+                <p data_translate="interests_section.synthetiser"></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

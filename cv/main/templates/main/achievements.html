@@ -1,0 +1,107 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<p data_translate="projects.title"></p>
+
+<div id="future_projects">
+    <h2 data_translate="projects.future.title"></h2>
+    <div class="generic_box">
+        <div id="project_unity" class="left text">
+            <h3 data_translate="projects.future.video_game.title"></h3>
+            <p data_translate="projects.future.video_game.languages"></p>
+            <p data_translate="projects.future.video_game.platform"></p>
+            <p data_translate="projects.future.video_game.context"></p>
+            <p data_translate="projects.future.video_game.description"></p>
+        </div>
+        <div class="right">
+            <img src="{% static 'main/images/moteur_unity.jpg' %}"
+                 alt="Image moteur Unity"/>
+        </div>
+    </div>
+</div>
+
+<div id="current_projects">
+    <h2 data_translate="projects.in_progress.title"></h2>
+    <div class="generic_box">
+        <div class="left">
+            <img src="{% static 'main/images/html_tag.jpg' %}" alt="Image balise HTML"/>
+        </div>
+        <div id="project_website" class="right text">
+            <h3 data_translate="projects.in_progress.website.title"></h3>
+            <p data_translate="projects.in_progress.website.languages"></p>
+            <p data_translate="projects.in_progress.website.date"></p>
+            <p data_translate="projects.in_progress.website.context"></p>
+            <p data_translate="projects.in_progress.website.description"></p>
+            <p data_translate="projects.in_progress.website.skills"></p>
+            <p data_translate="projects.in_progress.website.future"></p>
+        </div>
+    </div>
+
+    <div class="generic_box">
+        <div id="project_music_player" class="left text">
+            <h3 data_translate="projects.in_progress.music_player.title"></h3>
+            <p data_translate="projects.in_progress.music_player.languages"></p>
+            <p data_translate="projects.in_progress.music_player.date"></p>
+            <p data_translate="projects.in_progress.music_player.context"></p>
+            <p data_translate="projects.in_progress.music_player.description"></p>
+            <p data_translate="projects.in_progress.music_player.skills"></p>
+        </div>
+        <div class="right">
+            <img src="{% static 'main/images/lecteur_musique.png' %}" alt="Capture d'écran Qt Designer"/>
+        </div>
+    </div>
+</div>
+
+<div id="completed_projects">
+    <h2 data_translate="projects.finished.title"></h2>
+    <div class="generic_box">
+        <div class="left">
+            <img src="{% static 'main/images/ensisingerie.png' %}" alt="Capture d'écran Ensisingerie"/>
+        </div>
+
+        <div id="project_ensisingerie" class="right text">
+            <h3 data_translate="projects.finished.ensisingerie.title"></h3>
+            <p data_translate="projects.finished.ensisingerie.languages"></p>
+            <p data_translate="projects.finished.ensisingerie.date"></p>
+            <p data_translate="projects.finished.ensisingerie.context"></p>
+            <p data_translate="projects.finished.ensisingerie.description"></p>
+            <p data_translate="projects.finished.ensisingerie.skills"></p>
+            <p data_translate="projects.finished.ensisingerie.link"></p>
+            <p data_translate="projects.finished.ensisingerie.weblink"></p>
+        </div>
+    </div>
+
+    <div class="generic_box">
+        <div id="project_hex" class="left text">
+            <h3 data_translate="projects.finished.hex.title"></h3>
+            <p data_translate="projects.finished.hex.languages"></p>
+            <p data_translate="projects.finished.hex.date"></p>
+            <p data_translate="projects.finished.hex.context"></p>
+            <p data_translate="projects.finished.hex.description"></p>
+            <p data_translate="projects.finished.hex.skills"></p>
+            <p data_translate="projects.finished.hex.link"></p>
+        </div>
+
+        <div class="right">
+            <img src="{% static 'main/images/hex.png' %}" alt="Capture d'écran HEX"/>
+        </div>
+    </div>
+
+    <div class="generic_box">
+        <div class="left">
+            <img src="{% static 'main/images/echecs.png' %}" alt="Capture d'écran jeu d'échec"/>
+        </div>
+
+        <div id="project_chess" class="right text">
+            <h3 data_translate="projects.finished.chess.title"></h3>
+            <p data_translate="projects.finished.chess.languages"></p>
+            <p data_translate="projects.finished.chess.date"></p>
+            <p data_translate="projects.finished.chess.context"></p>
+            <p data_translate="projects.finished.chess.description"></p>
+            <p data_translate="projects.finished.chess.skills"></p>
+            <p data_translate="projects.finished.chess.link"></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

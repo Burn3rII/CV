@@ -1,0 +1,45 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<div id="contact_infos">
+    <p data_translate="contact.warning"></p>
+
+    <p data_translate="contact.mail"></p>
+    <p data_translate="contact.tel"></p>
+</div>
+
+<div class="contact_box">
+    <h2>Contactez-moi</h2>
+    <form action="traitement.php" method="post">
+        <div class="form_field">
+            <label for="votre_nom"  data_translate="contact.form.name"></label>
+            <input type="text" name="nom" id="votre_nom"  data_translate_placeholder="placeholder_name" required/>
+        </div>
+
+        <div class="form_field">
+            <label for="votre_prénom" data_translate="contact.form.first_name"></label>
+            <input type="text" name="prénom" id="votre_prénom" data_translate_placeholder="placeholder_first_name" required/>
+        </div>
+
+        <div class="form_field">
+            <label for="votre_objet" data_translate="contact.form.object"></label>
+            <input type="text" name="objet" id="votre_objet" data_translate_placeholder="placeholder_object"/>
+        </div>
+
+        <div class="form_field">
+            <label for="votre_message" data_translate="contact.form.message"></label>
+            <textarea name="message" id="votre_message" rows="15" required></textarea>
+        </div>
+
+        <div class="form_button">
+            <input type="submit" data_translate_value="value_submit"/>
+        </div>
+
+        <div class="form_button">
+            <input type="reset" data_translate_value="value_reset"/>
+        </div>
+        <p data_translate="contact.form.required"></p>
+    </form>
+</div>
+{% endblock %}
