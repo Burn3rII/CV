@@ -28,9 +28,12 @@
     "skills_section": {
       "title": "Mes compétences",
       "programming_languages": {
-        "title": "Langages de programmation",
+        "title": "Langages informatiques",
+		"UML": "UML",
         "C": "C",
-        "Python": "Python"
+        "Python": "Python",
+		"Java": "Java",
+		"F#" : "F#"
       },
       "web": {
         "title": "Web",
@@ -154,6 +157,7 @@
 					"context": "Cadre: Projet personnel",
 					"description": "Description: Le présent site internet. Il s'agit d'un CV en ligne, destiné à être amélioré au fur et à mesure.",
 					"skills": "Compétences visées: Apprentissage de l'HTML et du CSS. Éléments graphiques tels que les barres de niveaux. Tableaux. Animations. Éléments réactifs aux actions utilisateur. Formulaires (sans traitement pour l'instant donc inutiles mais partie HTML fonctionnelle).",
+					"link": "Lien Github vers le projet : <a href='https://github.com/Burn3rII/CV' target='_blank' title='Lien vers projet Github CV' class='inline_link'>CV</a>",
 					"future": "Améliorations futures: Passage à un site plus dynamique avec JavaScript."
 				},
 				"music_player": {
@@ -252,9 +256,12 @@
     "skills_section": {
       "title": "My skills",
       "programming_languages": {
-        "title": "Programming languages",
+        "title": "Computer languages",
+		"UML": "UML",
         "C": "C",
-        "Python": "Python"
+        "Python": "Python",
+		"Java": "Java",
+		"F#" : "F#"
       },
       "web": {
         "title": "Web",
@@ -378,6 +385,7 @@
 					"context": "Context: Personal project",
 					"description": "Description: The present website. It is an online CV, intended to be improved over time.",
 					"skills": "Targeted skills: Learning HTML and CSS. Graphic elements such as progress bars. Tables. Animations. Elements responsive to user actions. Forms (currently non-functional, so useless for now, but HTML part is functional).",
+					"link": "Github link to the project: <a href='https://github.com/Burn3rII/CV' target='_blank' title='Link to CV Github project' class='inline_link'>CV</a>",
 					"future": "Future improvements: Transition to a more dynamic site JavaScript."
 				},
 				"music_player": {
