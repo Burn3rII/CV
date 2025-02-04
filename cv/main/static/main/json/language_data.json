@@ -29,16 +29,20 @@
       "title": "Mes compétences",
       "programming_languages": {
         "title": "Langages informatiques",
-		"UML": "UML",
-        "C": "C",
-        "Python": "Python",
+		"C++": "C++",
 		"Java": "Java",
-		"F#" : "F#"
-      },
+		"C#": "C#",
+		"Cobol": "Cobol",
+		"Python": "Python",
+        "C": "C",
+		"F#" : "F#",
+		"UML": "UML"
+	  },
       "web": {
         "title": "Web",
         "HTML": "HTML",
         "CSS": "CSS",
+		"XAML": "XAML",
         "Django": "Django",
 		"JavaScript": "JavaScript"
       },
@@ -69,7 +73,7 @@
       "formation": "Formation",
       "location": "Lieu",
       "row1": {
-        "period": "2023-2024",
+        "period": "2023-2025",
         "formation": "École d'ingénieur section Informatique et Réseaux",
         "location": "École Nationale Supérieure d'Ingénieurs Sud-Alsace"
       },
@@ -98,7 +102,19 @@
       
       
     "experience": {
-    	"appuis": {
+      "euro_information": {
+				"year": "Juillet 2024-Aujourd'hui",
+				"title": "EURO INFORMATION - <span class='place'>Strasbourg</span>",
+				"job": "Apprenti ingénieur logiciel ",
+				"mission1": "Développement d’une interface web pour la gestion des tests de charge (C#/XAML en frontend ; COBOL/SQL en backend).",
+				"mission2": "Rédaction de documentation technique pour les systèmes et processus. ",
+				"mission3": "Optimisation des déploiements avec des pipelines CI/CD (Docker, OpenShift).",
+		  		"mission4": "Modélisation des systèmes avec PowerDesigner.",
+				"mission5": "Tests qualité avec OpenText ALM Quality Center.",
+				"mission6": "Support utilisateur via la gestion de la boîte mail de l’équipe.",
+		  		"mission7": "Déploiement des systèmes à travers les phases de qualification et de production. "
+	  },
+	  "appuis": {
 				"year": "2023",
 				"title": "Association APPUIS - <span class='place'>Mulhouse</span>",
 				"job": "Bénévolat - Cours de français à de jeunes migrants",
@@ -171,6 +187,42 @@
 			},
 			"finished": {
 				"title": "Projets réalisés",
+				"gradient_descente": {
+					"title": "Reconnaissance de chiffres avec un algorithme de descente de gradient",
+					"languages": "Langages: Python",
+					"date": "Date: Janvier 2024",
+					"context": "Cadre: Projet scolaire ENSISA de groupe (2 personnes)",
+					"description": "Description: Reconnaissance des chiffres de la bibliothèques scikit-learn avec une descente de gradient personnalisée puis avec celle proposée par scikit-learn. Matrice de confusion. > 95% de précision en moyenne.",
+					"skills": "Compétences acquises/travaillées durant ce projet: Algorithme de descente de gradient. Python. Travail de groupe.",
+					"link": "Lien Github vers le projet : <a href='https://github.com/Burn3rII/Digit-recognition' target='_blank' title='Lien vers projet Github digit recognition' class='inline_link'>Digit recognition</a>"
+				},
+				"connect4": {
+					"title": "Jeu de puissance 4 avec IA alpha-beta",
+					"languages": "Langages: Python",
+					"date": "Date: Octobre 2024",
+					"context": "Cadre: Projet scolaire ENSISA",
+					"description": "Description: Jeu à deux joueurs, humains ou IA. Implémentataion de l'algorithme alpha-beta. Possibilité de choix de la profondeur maximum de recherche de l'IA. Heuristique basé sur le nombre d'alignements de pions réalisés et sur le placement central.",
+					"skills": "Compétences acquises/travaillées durant ce projet: Python. Algorithme alpha-beta. IA de jeu. Recherche d'une heuristique.",
+					"link": "Lien Github vers le projet : <a href='https://github.com/Burn3rII/Connect4' target='_blank' title='Lien vers projet Github Connect4' class='inline_link'>Connect4</a>"
+				},
+				"unote": {
+					"title": "Application de gestion de vie scolaire",
+					"languages": "Langages: Python(Django)/CSS/JavaScript",
+					"date": "Date: Mai 2024",
+					"context": "Cadre: Projet de groupe ENSISA (groupe de 6 personnes)",
+					"description": "Description: Application de gestion scolaire. Authentification. Droits enseignants/élèves. Possibilité de noter un élève, voir ses notes, créer un cours, voir l'emploi du temps, télécharger le bulletin de notes.",
+					"skills": "Compétences acquises/travaillées durant ce projet: Django. JavaScript. Travail de groupe avec Github. Création d'emploi du temps. Mise en ligne d'un site internet.",
+					"link": "Lien Github vers le projet : <a href='https://github.com/Burn3rII/Unote' target='_blank' title='Lien vers projet Github Unote' class='inline_link'>Unote</a>"
+				},
+				"shape_editor": {
+					"title": "Application de dessin avec formes",
+					"languages": "Langages: Java/UML",
+					"date": "Date: Mars 2024",
+					"context": "Cadre: Projet de groupe ENSISA (groupe de 3 personnes)",
+					"description": "Description: Application de dessin à partir de formes. Diverses opérations possibles sur les formes, partage via serveur distant, sauvegarde du canvas en image. Documentation de l'application avec diagrammes UML",
+					"skills": "Compétences acquises/travaillées durant ce projet: Java. UML. Création d'une bonne IHM. Mise en place d'un serveur distant. Travail de groupe avec Github.",
+					"link": "Lien Github vers le projet : <a href='https://github.com/Burn3rII/shapeEditor' target='_blank' title='Lien vers projet Github shape editor' class='inline_link'>shapeEditor</a>"
+				},
 				"ensisingerie": {
 					"title": "Site web de messagerie en ligne 'Ensisingerie'",
 					"languages": "Langages : Python(Django)/CSS/JavaScript",
@@ -257,16 +309,20 @@
       "title": "My skills",
       "programming_languages": {
         "title": "Computer languages",
-		"UML": "UML",
-        "C": "C",
-        "Python": "Python",
+		"C++": "C++",
 		"Java": "Java",
-		"F#" : "F#"
+		"C#": "C#",
+		"Cobol": "Cobol",
+		"Python": "Python",
+        "C": "C",
+		"F#" : "F#",
+		"UML": "UML"
       },
       "web": {
         "title": "Web",
         "HTML": "HTML",
         "CSS": "CSS",
+		"XAML": "XAML",
         "Django": "Django",
 		"JavaScript": "JavaScript"
       },
@@ -297,7 +353,7 @@
       "formation": "Education",
       "location": "Location",
       "row1": {
-        "period": "2023-2024",
+        "period": "2023-2025",
         "formation": "Engineering school Computer Science and Networks section",
         "location": "École Nationale Supérieure d'Ingénieurs Sud-Alsace"
       },
@@ -326,6 +382,18 @@
       
       
     "experience": {
+      "euro_information": {
+				"year": "July 2024-Today",
+				"title": "EURO INFORMATION - <span class='place'>Strasbourg</span>",
+				"job": "Apprentice software engineer",
+				"mission1": "Developed a web interface for stress test management (C#/XAML, frontend; COBOL/SQL, backend).",
+				"mission2": "Authored technical documentation for systems and processes.",
+				"mission3": "Streamlined deployments with CI/CD pipelines (Docker, OpenShift).",
+		  		"mission4": "Modeled workflows and systems using PowerDesigner.",
+				"mission5": "Ensured quality assurance with OpenText ALM Quality Center.",
+				"mission6": "Supported users via team mailbox management.",
+		  		"mission7": "Deployed systems through qualification and production phases."
+	  },
       "appuis": {
 				"year": "2023",
 				"title": "Association APPUIS - <span class='place'>Mulhouse</span>",
@@ -399,11 +467,47 @@
 			},
 			"finished": {
 				"title": "Completed projects",
+				"gradient_descente": {
+					"title": "Digit recognition with a gradient descent algorithm",
+					"languages": "Languages: Python",
+					"date": "Date: January 2024",
+					"context": "Framework: ENSISA school group project (2 people)",
+					"description": "Description: Recognition of digits from the scikit-learn library using a custom gradient descent algorithm and then the one provided by scikit-learn. Confusion matrix. > 95% accuracy on average.",
+					"skills": "Skills acquired/worked on during this project: Gradient descent algorithm. Python. Teamwork.",
+					"link": "GitHub link to the project: <a href='https://github.com/Burn3rII/Digit-recognition' target='_blank' title='GitHub project link digit recognition' class='inline_link'>Digit recognition</a>"
+				},
+				"connect4": {
+					"title": "Connect 4 game with alpha-beta AI",
+					"languages": "Languages: Python",
+					"date": "Date: October 2024",
+					"context": "Framework: ENSISA school project",
+					"description": "Description: Two-player game, human or AI. Implementation of the alpha-beta algorithm. Ability to choose the AI's maximum search depth. Heuristic based on the number of completed alignments and central positioning.",
+					"skills": "Skills acquired/worked on during this project: Python. Alpha-beta algorithm. Game AI. Heuristic research.",
+					"link": "GitHub link to the project: <a href='https://github.com/Burn3rII/Connect4' target='_blank' title='GitHub project link Connect4' class='inline_link'>Connect4</a>"
+				},
+				"unote": {
+					"title": "School management application",
+					"languages": "Languages: Python (Django)/CSS/JavaScript",
+					"date": "Date: May 2024",
+					"context": "Framework: ENSISA group project (6 people)",
+					"description": "Description: School management application. Authentication. Teacher/student permissions. Ability to grade a student, view grades, create a course, check the schedule, and download the report card.",
+					"skills": "Skills acquired/worked on during this project: Django. JavaScript. Teamwork with GitHub. Schedule creation. Website deployment.",
+					"link": "GitHub link to the project: <a href='https://github.com/Burn3rII/Unote' target='_blank' title='GitHub project link Unote' class='inline_link'>Unote</a>"
+				},
+				"shape_editor": {
+					"title": "Drawing application with shapes",
+					"languages": "Languages: Java/UML",
+					"date": "Date: March 2024",
+					"context": "Framework: ENSISA group project (3 people)",
+					"description": "Description: Drawing application using shapes. Various operations available on shapes, sharing via remote server, saving the canvas as an image. Application documentation with UML diagrams.",
+					"skills": "Skills acquired/worked on during this project: Java. UML. Creating a good UI. Setting up a remote server. Teamwork with GitHub.",
+					"link": "GitHub link to the project: <a href='https://github.com/Burn3rII/shapeEditor' target='_blank' title='GitHub project link shape editor' class='inline_link'>shapeEditor</a>"
+				},
 				"ensisingerie": {
 					"title": "Online messaging website 'Ensisingerie'",
 					"languages": "Languages: Python(Django)/CSS/JavaScript",
 					"date": "Date: December 2023",
-					"context": "Framework: ENSISA group web project (3-person team)",
+					"context": "Context: ENSISA group web project (3-person team)",
 					"description": "Description: Online messaging website with the ability to create chat rooms and moderation features.",
 					"skills": "Skills acquired/developed during this project: Django. JavaScript. Group work with Github. Deployment of a website.",
 					"link": "Github link to the project: <a href='https://github.com/Burn3rII/ENSISAGERIE' target='_blank' title='Link to Ensisingerie Github project' class='inline_link'>Github Ensisingerie</a>",
